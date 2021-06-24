@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.apache.ConcurrentRemovalLoadTest" time="0.174" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="16"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\JavaProjects\ISW2-testing\jcs\target\test-classes;D:\JavaProjects\ISW2-testing\jcs\target\classes;C:\Users\pk\.m2\repository\org\apache\jcs\jcs\1.3\jcs-1.3.jar;C:\Users\pk\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\pk\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\pk\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\pk\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\pk\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\pk\.m2\repository\concurrent\concurrent\1.0\concurrent-1.0.jar;C:\Users\pk\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Berlin"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
+    <property name="sun.java.command" value="C:\Users\pk\AppData\Local\Temp\surefire2109776930410204506\surefirebooter7721176086810554553.jar C:\Users\pk\AppData\Local\Temp\surefire2109776930410204506 2021-06-23T15-24-38_013-jvmRun1 surefire3469917024800383108tmp surefire_016652578094519825445tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\JavaProjects\ISW2-testing\jcs\target\test-classes;D:\JavaProjects\ISW2-testing\jcs\target\classes;C:\Users\pk\.m2\repository\org\apache\jcs\jcs\1.3\jcs-1.3.jar;C:\Users\pk\.m2\repository\commons-logging\commons-logging\1.1\commons-logging-1.1.jar;C:\Users\pk\.m2\repository\log4j\log4j\1.2.12\log4j-1.2.12.jar;C:\Users\pk\.m2\repository\logkit\logkit\1.0.1\logkit-1.0.1.jar;C:\Users\pk\.m2\repository\avalon-framework\avalon-framework\4.1.3\avalon-framework-4.1.3.jar;C:\Users\pk\.m2\repository\javax\servlet\servlet-api\2.3\servlet-api-2.3.jar;C:\Users\pk\.m2\repository\concurrent\concurrent\1.0\concurrent-1.0.jar;C:\Users\pk\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\pk\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pk"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-03-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\JavaProjects\ISW2-testing\jcs"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\pk\AppData\Local\Temp\surefire2109776930410204506\surefirebooter7721176086810554553.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="16+36-2231"/>
+    <property name="user.name" value="pk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pk\AppData\Local\Temp\"/>
+    <property name="java.version" value="16"/>
+    <property name="user.dir" value="D:\JavaProjects\ISW2-testing\jcs"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\oracle\product\19.0.0\server\bin;*:\app\client\pk\product\19.0.0\client_32\bin;C:\Windows\System32;C:\Windows;C:\Windows\System32\wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\dotnet\;D:\apache-maven-3.8.1\bin;C:\ProgramData\spart;C:\Users\pk\AppData\Local\Microsoft\WindowsApps;C:\Users\pk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\pk\AppData\Roaming\npm;D:\android-tools;C:\Users\pk\.dotnet\tools;C:\Users\pk\.dotnet\tools;C:\Users\pk\AppData\Local\Microsoft\WindowsApps;D:\ISW2\sonar-scanner-4.4.0.2170-windows\bin;D:\apache-maven-3.8.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="jacoco-agent.destfile" value="target/jacoco.exec"/>
+  </properties>
+  <testcase name="testRemoveCache1" classname="org.apache.ConcurrentRemovalLoadTest" time="0.016"/>
+  <testcase name="testRemoveCache2" classname="org.apache.ConcurrentRemovalLoadTest" time="0.01"/>
+  <testcase name="testRemoveCache3" classname="org.apache.ConcurrentRemovalLoadTest" time="0.007"/>
+  <testcase name="testPutCache1" classname="org.apache.ConcurrentRemovalLoadTest" time="0"/>
+  <testcase name="testPutCache2" classname="org.apache.ConcurrentRemovalLoadTest" time="0"/>
+  <testcase name="testPutCache3" classname="org.apache.ConcurrentRemovalLoadTest" time="0"/>
+  <testcase name="testPutCache4" classname="org.apache.ConcurrentRemovalLoadTest" time="0"/>
+</testsuite>

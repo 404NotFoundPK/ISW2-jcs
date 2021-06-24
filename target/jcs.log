@@ -1,0 +1,15 @@
+2021-06-23 15:24:38,613 INFO [CompositeCacheManager] - <Instance is null, creating with provided config>
+2021-06-23 15:24:38,616 INFO [CompositeCacheManager] - <Creating cache manager from config file: /TestRemoval.ccf>
+2021-06-23 15:24:38,621 INFO [ThreadPoolManager] - <thread_pool.default PoolConfiguration = useBoundary = [true] boundarySize = [2000] maximumPoolSize = [150] minimumPoolSize = [4] keepAliveTime = [350000] whenBlockedPolicy = [RUN] startUpSize = [4]>
+2021-06-23 15:24:38,624 INFO [CompositeCacheConfigurator] - <Setting default auxiliaries to >
+2021-06-23 15:24:38,627 INFO [CompositeCacheConfigurator] - <setting defaultCompositeCacheAttributes to [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1000, maxSpoolPerRun = -1, diskUsagePattern = 0 ]>
+2021-06-23 15:24:38,627 INFO [CompositeCacheConfigurator] - <No special ElementAttribute class defined for key [jcs.default.elementattributes], using default class.>
+2021-06-23 15:24:38,627 INFO [CompositeCacheConfigurator] - <setting defaultElementAttributes to [ IS_LATERAL = true, IS_SPOOL = true, IS_REMOTE = true, IS_ETERNAL = true, MaxLifeSeconds = -1, IdleTime = -1, CreateTime = 1624454678627, LastAccessTime = 1624454678627, getTimeToLiveSeconds() = -1, createTime = 1624454678627 ]>
+2021-06-23 15:24:38,628 INFO [CompositeCacheConfigurator] - <No special ElementAttribute class defined for key [jcs.system.groupIdCache.elementattributes], using default class.>
+2021-06-23 15:24:38,639 INFO [LRUMemoryCache] - <initialized LRUMemoryCache for groupIdCache>
+2021-06-23 15:24:38,639 INFO [CompositeCache] - <Constructed cache with name [groupIdCache] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 10000, maxSpoolPerRun = -1, diskUsagePattern = 0 ]>
+2021-06-23 15:24:38,639 INFO [CompositeCacheConfigurator] - <No special ElementAttribute class defined for key [jcs.region.testCache1.elementattributes], using default class.>
+2021-06-23 15:24:38,639 INFO [LRUMemoryCache] - <initialized LRUMemoryCache for testCache1>
+2021-06-23 15:24:38,639 INFO [CompositeCache] - <Constructed cache with name [testCache1] and cache attributes [ useLateral = true, useRemote = true, useDisk = true, maxObjs = 1000, maxSpoolPerRun = -1, diskUsagePattern = 0 ]>
+2021-06-23 15:24:38,639 INFO [CompositeCacheConfigurator] - <Parsed regions [testCache1]>
+2021-06-23 15:24:38,639 INFO [CompositeCacheConfigurator] - <Finished configuration in 16 ms.>
