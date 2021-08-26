@@ -81,7 +81,7 @@ public class ConcurrentRemovalLoadTest {
     }
 
     @Test
-    public void testPutCache4() throws Exception {
+    public void testGetCache() throws Exception {
         removalTestUtil.runGetInRange(jcs, 0, 1000, false );
     }
 }
