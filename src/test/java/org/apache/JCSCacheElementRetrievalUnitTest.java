@@ -47,15 +47,15 @@ public class JCSCacheElementRetrievalUnitTest {
     public final ExpectedException exception = ExpectedException.none();
     
     @Before
-	public void setUp() throws Exception {
-		configure();
-	}
+    public void setUp() throws Exception {
+	configure();
+    }
     
     private void configure() throws Exception {
     	jcs = JCS.getInstance( "testCache1" );
     }
     
-	@Test
+    @Test
     public void testSimpleElementRetrieval() throws Exception {
 		
         jcs.put( "test_key", "test_data" );
@@ -67,24 +67,4 @@ public class JCSCacheElementRetrievalUnitTest {
         long diff = now - elem.getElementAttributes().getCreateTime();
         assertTrue( "Create time should have been at or after the call", diff >= 0 );
     }
-
-    @Test
-    public void testClear() throws Exception {
-        jcs.put( "test_key", "test_data" );
-        ICacheElement elem = jcs.getCacheElement( "test_key" );
-        assertNotNull(elem);
-
-        jcs.clear();
-        elem = jcs.getCacheElement( "test_key" );
-        assertNull(elem);
-    }
-
-    // @Test
-    // public void testPutSafeExistedItem() throws Exception {
-    //     exception.expect(ObjectExistsException.class);
-    //     jcs.put( "test_key", "test_data" );
-        
-    //     // put the item with the same key value
-    //     jcs.putSafe( "test_key", "test_data" );
-    // }
 }
