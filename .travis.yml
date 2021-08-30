@@ -1,0 +1,7 @@
+addons:
+  sonarcloud:
+    organization: 404notfoundpk
+    token: c8350e0631b5b5823833635e94e0577c2b1247ba
+ 
+script:
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=404notfoundpk_ISW2-jcs
